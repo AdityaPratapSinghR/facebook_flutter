@@ -3,10 +3,10 @@
 A Facebook Login clone using flutter. The app is made with flutter and has a basic login, signup, help and home page.
 
 ## Images
-<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/login.png" width=50% height=50%>
-<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/signup.png" width=50% height=50%>
-<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/help.png" width=50% height=50%>
-<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/home.png" width=50% height=50%>
+<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/login.png" width=30% height=30%>
+<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/signup.png" width=30% height=30%>
+<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/help.png" width=30% height=30%>
+<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/home.png" width=30% height=30%>
 
 
 ### Getting Started
