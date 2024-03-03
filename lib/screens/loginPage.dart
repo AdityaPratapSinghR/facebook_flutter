@@ -14,6 +14,10 @@ class _loginPageState extends State<loginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: backgroundColor,
+        iconTheme: IconThemeData(color: backgroundColor),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Container(
@@ -25,7 +29,7 @@ class _loginPageState extends State<loginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                const Spacer(flex: 5),
+                const Spacer(flex: 2),
                 Image(
                   image: AssetImage("assets/images/facebook.png"),
                   height: 50,
@@ -115,14 +119,25 @@ class _loginPageState extends State<loginPage> {
                         style: TextStyle(color: Colors.white, fontSize: 16),
                       )),
                 ),
-                const Spacer(flex: 5),
-                Container(
+                const Spacer(flex: 4),
+                InkWell(
+                  onTap: (){
+                    Navigator.of(context).pushNamed(MyRoutes.signupPageRoute);
+                  },
+                child: Container(
                   child: Text("Sign Up for Facebook",style: TextStyle(color: Colors.white,fontSize: 16),)
                 ),
+                ),
                 SizedBox(height: 30,),
+            InkWell(
+              onTap: (){
+                Navigator.of(context).pushNamed(MyRoutes.needHelpRoute);
+              },
+              child:
                 Container(
                   child: Text("Need Help?",style: TextStyle(color: Colors.white,fontSize: 16),),
                 ),
+            ),
                 const Spacer(flex: 2)
               ],
             ),

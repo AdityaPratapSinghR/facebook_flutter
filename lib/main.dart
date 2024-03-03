@@ -1,5 +1,7 @@
 import 'package:facebook_flutter/screens/homePage.dart';
 import 'package:facebook_flutter/screens/loginPage.dart';
+import 'package:facebook_flutter/screens/needHelpPage.dart';
+import 'package:facebook_flutter/screens/signUpPage.dart';
 import 'package:facebook_flutter/utils/routes.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +22,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "/":(context) => loginPage(),
         MyRoutes.homePageRoute:(context) => homePage(),
+        MyRoutes.signupPageRoute:(context) => signUpPage(),
+        MyRoutes.needHelpRoute:(context) => needHelpPage()
       },
 
     );
