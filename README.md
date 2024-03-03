@@ -1,8 +1,14 @@
 # facebook_flutter
 
-A new Flutter project.
+A Facebook Login clone using flutter. The app is made with flutter and has a basic login, signup, help and home page.
 
-## Getting Started
+## Images
+![Login Screen](..%2F..%2F..%2F..%2FDownloads%2FScreenshot_20240303-202415.png)
+![Signup Screen](..%2F..%2F..%2F..%2FDownloads%2FScreenshot_20240303-202439.png)
+![Help Screen](..%2F..%2F..%2F..%2FDownloads%2FScreenshot_20240303-202446.png)
+![Home Screen](..%2F..%2F..%2F..%2FDownloads%2FScreenshot_20240303-202455.png)
+
+### Getting Started
 
 This project is a starting point for a Flutter application.
 
